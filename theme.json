@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "transcript-background",
+          "color": "#fffff6",
+          "name": "Transcript Background"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'Inter', sans-serif",
+          "slug": "Inter",
+          "name": "Headings - Inter",
+          "fontFace": [
+            {
+              "fontFamily": "'Inter', sans-serif",
+              "fontWeight": "900",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "src": ["File:./assets/fonts/inter/Inter-Black.ttf"]
+            },
+            {
+              "fontFamily": "'Inter', sans-serif",
+              "fontWeight": "800",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "src": ["File:./assets/fonts/inter/Inter-ExtraBold.ttf"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "'Tinos', serif",
+          "slug": "Tinos",
+          "name": "Body - Tinos"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "650px",
+      "wideSize": "920px"
+    },
+    "custom": {
+      "typography": {
+        "font-size": {
+          "heading-1": "3.75rem"
+        }
+      }
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--tinos)",
+      "lineHeight": "1.75",
+      "fontSize": "1rem"
+    },
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--inter)",
+          "fontWeight": "400",
+          "lineHeight": "1.3",
+          "fontSize": "var(--wp--custom--typography--font-size--heading-1)"
+        }
+      }
+    }
+  }
+}
