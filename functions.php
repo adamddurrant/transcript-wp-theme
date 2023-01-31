@@ -24,16 +24,24 @@ add_action( 'after_setup_theme', 'transcript_theme_support' );
 /*------------------------------------------------
 Enqueue styles
 -------------------------------------------------*/
-
 if ( ! function_exists( 'transcript_styles' ) ) :
 
-
 function transcript_styles(){
-// Register stylesheet
-wp_enqueue_style('transcript_main_styles', get_stylesheet_uri(), array(), wp_get_theme()->get('Version'));
-wp_enqueue_style('transcript_block_styles', get_template_directory_uri() . '/assets/css/blocks.css');
-}
+	// Register stylesheet
+		wp_enqueue_style('transcript_main_styles', get_stylesheet_uri(), array(), wp_get_theme()->get('Version'));
+		wp_enqueue_style('transcript_block_styles', get_template_directory_uri() . '/assets/css/blocks.css');
+		}
 
 endif;
 add_action( 'wp_enqueue_scripts', 'transcript_styles' );
+
+/*------------------------------------------------
+Customize excerpt length
+-------------------------------------------------*/
+function custom_excerpt_length($length) {
+	return 20;
+}
+
+add_filter('excerpt_length','custom_excerpt_length')
+
 ?>

@@ -1,0 +1,162 @@
+.wp-block-post-title a {
+  text-decoration: none;
+}
+.wp-block-post-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.post-hero-width {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.single-featured-image img {
+  height: 55vh;
+  width: auto;
+}
+
+.wp-block-post-author__byline {
+  width: auto;
+  font-size: 1.25rem;
+  margin-right: 6px;
+  font-weight: normal;
+}
+
+.wp-block-post-date {
+  font-weight: 700;
+}
+
+.heading-input-label-gutena {
+  display: none;
+}
+
+.gutena-forms-email-field {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 60% !important;
+  display: inline-block;
+}
+
+.gutena-forms-email-field {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.wp-block-gutena-forms .wp-block-gutena-field-group .is-layout-flex {
+  gap: 0;
+}
+
+.email-input {
+  height: 50px;
+}
+
+.wp-block-gutena-field-group > div {
+  justify-content: center;
+}
+
+.gutena-forms-contact-form {
+  padding-bottom: 3rem !important;
+  padding-top: 0 !important;
+}
+
+.wp-block-gutena-forms.input-box-border-bottom-only
+  .wp-block-gutena-form-field
+  .gutena-forms-field {
+  padding-left: 10px;
+}
+
+.gutena-forms-submit-buttons {
+  display: inline-block;
+}
+
+.gutena-forms-submit-buttons > div > button {
+  height: 52px;
+  padding-top: 11px !important;
+  padding-bottom: 12px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.wp-block-navigation__container li {
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+#new-callout {
+  display: inline-block;
+  margin-right: 4px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #000;
+  font-family: Inter, sans-serif;
+  color: #fffff6;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.first-title {
+  font-size: 60px;
+  line-height: 100%;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.first-title a:hover {
+  color: black;
+}
+
+.wp-block-post-author__name {
+  font-weight: 700;
+}
+
+.single-author-byline div {
+  justify-content: center;
+}
+
+.wp-block-post-author__content {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wp-block-post-excerpt__excerpt {
+  line-height: 160%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wp-block-post {
+  margin-top: 80px;
+}
+
+.wp-block-hyperlink-group {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.wp-block-hyperlink-group:hover {
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+.hero-group {
+  transition: all 0.3s;
+}
+
+.hero-group:hover {
+  opacity: 0.7;
+  transition: all 0.3s;
+}
